@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
@@ -22,6 +22,17 @@ export function AppContent() {
   const [activeTab, setActiveTab] = useState('home');
   const [selectedProvinceId, setSelectedProvinceId] = useState('estuaire');
   const [isAiModalOpen, setIsAiModalOpen] = useState(false);
+
+  // Track pageviews in Google Analytics on tab changes (SPA friendly)
+  useEffect(() => {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'page_view', {
+        page_title: activeTab,
+        page_location: window.location.href,
+        page_path: '/' + activeTab
+      });
+    }
+  }, [activeTab]);
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
   const [isUserDashboardOpen, setIsUserDashboardOpen] = useState(false);
   const [isAdminDashboardOpen, setIsAdminDashboardOpen] = useState(false);
