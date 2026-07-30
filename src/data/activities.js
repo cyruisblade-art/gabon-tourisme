@@ -1,0 +1,80 @@
+export const ACTIVITIES_DATA = [
+  {
+    id: "gorilla-trekking",
+    title: "Observation des Gorilles des Plaines",
+    category: "Safari & Primates",
+    duration: "1 à 2 jours",
+    difficulty: "Moyenne à Avancée",
+    price: 150000,
+    currency: "XAF",
+    location: "Parc National de Loango (Akaka) & Moukalaba-Doudou",
+    image: "/images/guide_ai.png",
+    description: "Accompagné de pisteurs et guides locaux expérimentés, partez en petite tribu de randonneurs à la rencontre des familles de gorilles protégées.",
+    included: ["Guide pisteur certifié", "Permis gorille ANPN", "Matériel de sécurité", "Collation bio de brousse"]
+  },
+  {
+    id: "whale-watching",
+    title: "Observation des Baleines en Famille",
+    category: "Océan & Faune Marine",
+    duration: "4 heures",
+    difficulty: "Facile",
+    price: 65000,
+    currency: "XAF",
+    location: "Port-Gentil, Mayumba & Pointe-Denis",
+    image: "/images/beach_couple_ai.png",
+    description: "Montez à bord avec des familles de touristes et marins locaux pour observer le saut spectaculaire des baleines à bosse au large du littoral.",
+    included: ["Embarcation hauturière avec skipper", "Gilets de sauvetage", "Guide biologiste marin", "Boissons fraîches"]
+  },
+  {
+    id: "turtle-nesting",
+    title: "Nidification des Tortues Luths",
+    category: "Océan & Faune Marine",
+    duration: "Nuitée (3h)",
+    difficulty: "Facile",
+    price: 35000,
+    currency: "XAF",
+    location: "Mayumba, Pongara & Loango",
+    image: "/images/turtles.jpg",
+    description: "Marchez sur le sable avec les écogardes et les résidents du village pour assister de nuit à la ponte des tortues géantes.",
+    included: ["Lampe infrarouge", "Guide environnemental", "Sensibilisation conservation"]
+  },
+  {
+    id: "sport-fishing",
+    title: "Pêche Traditionnelle & Pêcheurs Locaux",
+    category: "Nautisme & Aventure",
+    duration: "1 jour",
+    difficulty: "Moyenne",
+    price: 210000,
+    currency: "XAF",
+    location: "Sette Cama & Lagune Iguela",
+    image: "/images/pirogue_ai.png",
+    description: "Embarquez aux côtés de pêcheurs passionnés pour partager leurs techniques en lagune et capturer le Capitaine et le Tarpon géant.",
+    included: ["Bateau de pêche pro", "Équipement haut de gamme Shimano/Penn", "Skipper professionnel"]
+  },
+  {
+    id: "koungou-kayak",
+    title: "Pirogue & Kayak sur l'Ogooué et Ivindo",
+    category: "Nautisme & Aventure",
+    duration: "1 jour",
+    difficulty: "Moyenne",
+    price: 45000,
+    currency: "XAF",
+    location: "Fleuve Ogooué & Chutes d'Ivindo",
+    image: "/images/ivindo.jpg",
+    description: "Partagez la navigation en pirogue en bois avec des guides piroguiers locaux et découvrez les villages au fil du fleuve Ogooué.",
+    included: ["Kayak insubmersible", "Piroguer itinérant", "Matériel de sécurité"]
+  },
+  {
+    id: "bwiti-culture-tour",
+    title: "Artisanat, Marchés & Traditions Bwiti",
+    category: "Culture & Patrimoine",
+    duration: "2 jours / 1 nuit",
+    difficulty: "Facile",
+    price: 85000,
+    currency: "XAF",
+    location: "Mouila, Lambaréné et Libreville",
+    image: "/images/market_ai.png",
+    description: "Rencontrez les artisans sculpteurs au travail, les mamans des marchés locaux et assistez aux danses traditionnelles rituelles du Gabon.",
+    included: ["Hébergement en village traditionnel", "Repas traditionnels Nyembwe", "Échanges avec les Nganga (Sages)"]
+  }
+];
