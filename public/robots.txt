@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gabon-tourisme.vercel.app/sitemap.xml
